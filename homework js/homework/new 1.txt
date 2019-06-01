@@ -1,0 +1,65 @@
+1)var a=promt();
+var count=0;
+while (a>0) {
+    a=(a-a%10)/10
+    count=count+1;
+}
+console.log(count)
+
+
+4)var a = [5, 4, 8, 2, 3, 7]
+var min = a[0];
+for (var i = 1; i < a.length; i++) {
+    if (a[i] < min) {
+        min = a[i];
+
+    }
+}
+console.log(min);
+
+3)var a = [5, 4, 8, 2, 3, 7]
+var max = a[0];
+for (var i = 1; i < a.length; i++) {
+    if (a[i] >max) {
+        max = a[i];
+
+    }
+}
+console.log(max);
+
+
+
+
+7) var a=[1,2,5,8,3,9,11,12,14];
+ var even=0;
+ var odd=0;
+ for (var i=0;i<a.length;i++) {
+     if ( a[i]%2==0) {
+         console.log(a[i])
+     }
+     
+ }
+ for (var i=0;i<a.length;i++) {
+     if(a[i]%2!=0) {
+         console.log(a[i])
+
+     }
+ }
+
+
+6) var a = [1, 2, 5, 7, 12, 9, 11, 13, 9, 8]
+ var max = a[0];
+ var secondMax = a[0]
+for (var i = 0; i < a.length; i++) {
+    if (a[i] > max) {
+       secondMax=max
+        max = a[i];
+       
+    }
+    else if (a[i] > secondMax) {
+        secondMax = a[i];
+        
+    }
+} console.log(max);
+console.log(secondMax);
+console.log(max*secondMax);
